@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "env": {
+        "browser": true
+    },
+    "plugins": [
+        "vue"
+    ],
+    "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended",
+        "google"
+    ],
+    "globals": {
+        "require": true
+    },
+    "rules": {
+        "linebreak-style": 0,
+        "switch-colon-spacing": 0,
+        "object-curly-spacing": 0,
+        "max-len": [1, 150],
+        "no-console": 1,
+        "no-debugger": 1
+        // "semi": "warn",
+        // "no-debugger": "warn",
+        // "no-prototype-builtins": "warn",
+        // "no-template-curly-in-string": "warn"
+    }
+}
